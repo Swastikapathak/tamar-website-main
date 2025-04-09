@@ -66,7 +66,7 @@ function FeatureCard({ icon: Icon, title, description }: { icon: React.ElementTy
 
       <div className="relative z-10">
         <Icon className="w-8 h-8 text-[#6442FA] mb-4 transition-colors duration-300" />
-        <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#6442FA] transition-colors duration-300">
+        <h3 className="text-xl font-light text-white mb-3 group-hover:text-[#6442FA] transition-colors duration-300">
           {title}
         </h3>
         <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
