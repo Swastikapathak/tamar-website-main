@@ -340,7 +340,7 @@ export default function AIConsultingPage() {
           </motion.div>
           <motion.div variants={itemVariants} className="mt-4 md:mt-6 text-sm md:text-base text-center space-y-4">
             <p>
-              Our technology stack includes advanced tools like CLIP, GPT4o, and Grok for text and image generation, enabling us to create intelligent and versatile AI solutions. We also leverage Gemini and VisualGPT for audio and video generation, ensuring comprehensive AI capabilities.
+              Our technology stack includes advanced tools like CLIP, GPT4o, and Grok for text and image generation, enabling us to create Intelligent and versatile AI solutions. We also leverage Gemini and VisualGPT for audio and video generation, ensuring comprehensive AI capabilities.
             </p>
             <p>
               For multimodal applications, we use Flamingo to integrate various data types, providing a seamless and powerful AI experience. Our tech stack is designed to meet the diverse needs of modern AI development.
