@@ -32,7 +32,7 @@ function StatItem({ value, label, duration = 2 }: StatItemProps) {
       return () => clearInterval(timer);
     }
   }, [inView, value, duration]);
-
+// 
   return (
     <motion.div
       ref={ref}
