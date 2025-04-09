@@ -40,7 +40,7 @@ export default function Team() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="w-full flex-auto"
           >
-            <h2 className="text-4xl font-extrabold tracking-tight text-[#4F45E4] sm:text-5xl">
+            <h2 className="text-4xl font-light tracking-tight text-[#4F45E4] sm:text-5xl">
               Join our team
             </h2>
             <p className="mt-6 text-lg text-gray-400">
@@ -73,8 +73,7 @@ export default function Team() {
                 href="#"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="text-sm font-semibold text-white hover:text-[#4F45E4] transition-colors duration-300"
-              >
+                className="text-sm font-light text-white hover:text-[#4F45E4] transition-colors duration-300">
                 See our job postings <span aria-hidden="true">→</span>
               </motion.a>
             </div>

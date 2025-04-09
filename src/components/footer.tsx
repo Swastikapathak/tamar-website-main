@@ -132,7 +132,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-[#4F45E4]">Quick Links</h3>
+            <h3 className="font-light text-lg mb-4 text-[#4F45E4]">Quick Links</h3>
             <ul className="space-y-2">
               {navItems
                 .filter((item) => !item.isDropdown)
@@ -151,7 +151,7 @@ export function Footer() {
 
           {/* Capabilities */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-[#4F45E4]">Capabilities</h3>
+            <h3 className="font-light text-lg mb-4 text-[#4F45E4]">Capabilities</h3>
             <ul className="space-y-2">
               {navItems
                 .find((item) => item.name === "Capabilities")
@@ -171,7 +171,7 @@ export function Footer() {
 
           {/* Industries */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-[#4F45E4]">Industries</h3>
+            <h3 className="font-light text-lg mb-4 text-[#4F45E4]">Industries</h3>
             <ul className="space-y-2">
               {navItems
                 .find((item) => item.name === "Industries")
@@ -191,7 +191,7 @@ export function Footer() {
 
           {/* Projects */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-[#4F45E4]">Projects</h3>
+            <h3 className="font-light text-lg mb-4 text-[#4F45E4]">Projects</h3>
             <ul className="space-y-2">
               {navItems
                 .find((item) => item.name === "Projects")
@@ -220,7 +220,7 @@ export function Footer() {
         >
           {/* Newsletter Subscription (Left Side) */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-[#4F45E4]">Subscribe to Our Newsletter</h3>
+            <h3 className="font-light text-lg mb-4 text-[#4F45E4]">Subscribe to Our Newsletter</h3>
             <p className="text-sm text-gray-400 mb-4">
               Stay updated with the latest news, insights, and updates from Tamar Software.
             </p>
@@ -257,15 +257,15 @@ export function Footer() {
 
           {/* Contact Details (Right Side) */}
           <div>
-            <h3 className="font-semibold text-lg mb-4 text-[#4F45E4]">Contact</h3>
+            <h3 className="font-light text-lg mb-4 text-[#4F45E4]">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li className="text-sm">A-0313, Logix Technova, Noida, Uttar Pradesh, India 2013</li>
+              <li className="text-sm">A-0313, Logix Technova, Noida, Uttar Pradesh, India </li>
               <li>
                 <Link
                   href="mailto:contact@tamarsoftware"
                   className="text-sm hover:text-[#4F45E4] transition-colors duration-300"
                 >
-                  contact@tamarsoftware
+                  contact@tamarsoftware.in
                 </Link>
               </li>
               <li>

@@ -62,11 +62,11 @@ function FeatureCard({ icon: Icon, title, description }: { icon: React.ElementTy
       {/* Top-right corner accent */}
       <div className="absolute top-0 right-0 w-24 h-24 bg-[#6442FA]/10 rounded-full 
         -translate-x-12 -translate-y-12 opacity-0 group-hover:opacity-100 
-        transition-all duration-300" />
+        transition-all duration-300"/>
 
       <div className="relative z-10">
         <Icon className="w-8 h-8 text-[#6442FA] mb-4 transition-colors duration-300" />
-        <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#6442FA] transition-colors duration-300">
+        <h3 className="text-xl font-light text-white mb-3 group-hover:text-[#6442FA] transition-colors duration-300">
           {title}
         </h3>
         <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -89,7 +89,7 @@ export function Stats() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-5xl font-extrabold mb-12 text-center text-[#6442FA]"
+          className="text-5xl font-light mb-12 text-center text-[#6442FA]"
         >
           Our Achievements
         </motion.h2>

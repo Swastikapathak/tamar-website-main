@@ -413,7 +413,7 @@ export default function SoftwareDevelopmentPage() {
                 <div className="absolute inset-0 bg-[#4F45E4]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 <div className="absolute top-0 right-0 w-16 sm:w-24 h-16 sm:h-24 bg-[#4F45E4]/10 rounded-full -translate-x-8 sm:-translate-x-12 -translate-y-8 sm:-translate-y-12 opacity-0 group-hover:opacity-100 transition-all duration-300" />
                 <div className="relative z-10">
-                  <h3 className="text-base sm:text-lg font-semibold mb-2 sm:mb-3 text-white group-hover:text-[#4F45E4] transition-colors duration-300">
+                  <h3 className="text-base sm:text-lg font-light mb-2 sm:mb-3 text-white group-hover:text-[#4F45E4] transition-colors duration-300">
                     {service.title}
                   </h3>
                   <p className="text-gray-400 text-xs sm:text-sm group-hover:text-gray-200 transition-colors duration-300">
@@ -523,7 +523,7 @@ export default function SoftwareDevelopmentPage() {
                   <div className="flex items-center justify-center w-12 h-12 mb-4 rounded-full bg-[#4F45E4]/20 text-[#4F45E4] text-2xl">
                     {step.icon}
                   </div>
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2 text-white group-hover:text-[#4F45E4] transition-colors duration-300">
+                  <h3 className="text-lg sm:text-xl font-light mb-2 text-white group-hover:text-[#4F45E4] transition-colors duration-300">
                     {step.title}
                   </h3>
                   <p className="text-gray-400 text-sm mb-3 group-hover:text-gray-200 transition-colors duration-300">
@@ -570,7 +570,7 @@ export default function SoftwareDevelopmentPage() {
                 <div className="absolute inset-0 bg-[#4F45E4]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg" />
                 <div className="relative z-10 ">
                   <stat.icon className="h-10 w-10 sm:h-12 sm:w-12  text-[#4F45E4] mb-4" />
-                  <h3 className="text-2xl sm:text-3xl font-bold text-white mb-2">{stat.value}</h3>
+                  <h3 className="text-2xl sm:text-3xl font-light text-white mb-2">{stat.value}</h3>
                   <p className="text-gray-300 text-sm sm:text-base font-medium">{stat.label}</p>
                 </div>
                 <motion.div
@@ -610,7 +610,7 @@ export default function SoftwareDevelopmentPage() {
                 <div className="relative z-10 flex items-start">
                   <span className="text-2xl mr-3">{reason.icon}</span>
                   <div>
-                    <h3 className="text-base sm:text-lg font-semibold mb-2 sm:mb-3 text-white group-hover:text-[#4F45E4] transition-colors duration-300">
+                    <h3 className="text-base sm:text-lg font-light mb-2 sm:mb-3 text-white group-hover:text-[#4F45E4] transition-colors duration-300">
                       {reason.title}
                     </h3>
                     <p className="text-gray-400 text-xs sm:text-sm group-hover:text-gray-200 transition-colors duration-300">

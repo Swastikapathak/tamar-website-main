@@ -17,7 +17,7 @@ function LeadershipCard({ name, role, image, description }: { name: string, role
 
       <img src={image} alt={name} className="w-full object-cover" />
       <div className="relative p-6 z-10">
-        <h3 className="text-xl font-bold mb-2 text-[#6442FA] group-hover:text-[#6442FA] 
+        <h3 className="text-xl font-light mb-2 text-[#6442FA] group-hover:text-[#6442FA] 
           transition-colors duration-300">
           {name}
         </h3>
@@ -37,7 +37,7 @@ export default function Team() {
     <div className="mx-auto max-w-7xl px-6  lg:px-8">
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <h2 className="text-5xl font-extrabold mb-12 text-center text-[#6442FA]">
+          <h2 className="text-5xl font-light mb-12 text-center text-[#6442FA]">
             Our Leadership Team
           </h2>
           <div className="grid md:grid-cols-3 gap-8  text-justify">

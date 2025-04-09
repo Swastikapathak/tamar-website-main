@@ -45,7 +45,7 @@ export default function ContactForm() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="space-y-6 text-white"
         >
-          <h2 className="text-4xl font-extrabold sm:text-5xl text-[#4F45E4]">
+          <h2 className="text-4xl font-light sm:text-5xl text-[#4F45E4]">
             Get in Touch
           </h2>
           <p className="text-lg text-gray-400">
@@ -54,7 +54,7 @@ export default function ContactForm() {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <MapPin className="h-6 w-6 text-[#4F45E4]" />
-              <p>A-0313, Logix Technova, Noida, Uttar Pradesh, India 2013</p>
+              <p>A-0313, Logix Technova, Noida, Uttar Pradesh, India </p>
             </div>
             <div className="flex items-center space-x-3">
               <Phone className="h-6 w-6 text-[#4F45E4]" />
@@ -71,7 +71,7 @@ export default function ContactForm() {
                 href="mailto:contact@tamarsoftware"
                 className="text-gray-400 hover:text-[#4F45E4] transition-colors duration-300"
               >
-                contact@tamarsoftware
+                contact@tamarsoftware.in
               </a>
             </div>
           </div>

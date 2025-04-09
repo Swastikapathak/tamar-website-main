@@ -7,7 +7,7 @@ function App() {
       <section className="relative flex flex-col items-center justify-center px-4 py-20">
 
         <div className="container mx-auto max-w-6xl relative z-10">
-          <Marquee />
+          <Marquee/>
           <div className="mt-12 space-y-8">
             <ContentBlock>
               Tamar Software was founded back in 2018 and has rapidly emerged to become the leader in the IT industry by

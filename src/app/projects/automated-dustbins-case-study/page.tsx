@@ -52,7 +52,7 @@ export default function Page() {
             className="grid md:grid-cols-2 gap-6 mb-16"
           >
             <motion.div variants={itemVariants} className="space-y-4">
-              <h1 className="text-3xl md:text-4xl font-bold text-indigo-500">
+              <h1 className="text-3xl md:text-4xl font-light text-indigo-500">
                 The Automated Dustbin Solution
               </h1>
               <p className="text-gray-300">
@@ -85,7 +85,7 @@ export default function Page() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-indigo-500">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-indigo-500">
               Project in Figures
             </motion.h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -119,7 +119,7 @@ export default function Page() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-indigo-500">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-indigo-500">
               Problem Statement
             </motion.h2>
             <motion.p variants={itemVariants} className="text-gray-300">
@@ -143,7 +143,7 @@ export default function Page() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-indigo-500">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-indigo-500">
               Technical Details
             </motion.h2>
             <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -168,7 +168,7 @@ export default function Page() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-indigo-500">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-indigo-500">
               Solution - Advanced Waste Management With Sensors Connected with Internet of Things
             </motion.h2>
             <motion.p variants={itemVariants} className="text-gray-300 mb-6">
@@ -209,7 +209,7 @@ export default function Page() {
                   variants={itemVariants}
                   className="p-5 bg-gray-900/50 rounded-lg border border-gray-800 shadow-md"
                 >
-                  <h3 className="text-lg font-semibold mb-2 text-white">{item.title}</h3>
+                  <h3 className="text-lg font-light mb-2 text-white">{item.title}</h3>
                   <p className="text-gray-300 text-sm">{item.description}</p>
                 </motion.div>
               ))}
@@ -233,7 +233,7 @@ export default function Page() {
                 variants={itemVariants}
                 className="p-5 bg-gray-900/50 rounded-lg border border-gray-800 shadow-md"
               >
-                <h3 className="text-lg font-semibold mb-2 text-white">{item.title}</h3>
+                <h3 className="text-lg font-light mb-2 text-white">{item.title}</h3>
                 <p className="text-gray-300">{item.value}</p>
               </motion.div>
             ))}
@@ -246,7 +246,7 @@ export default function Page() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-indigo-500">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-indigo-500">
               Final Outcomes
             </motion.h2>
             <motion.p variants={itemVariants} className="text-gray-300 mb-6">
@@ -286,7 +286,7 @@ export default function Page() {
                   variants={itemVariants}
                   className="p-5 bg-gray-900/50 rounded-lg border border-gray-800 shadow-md"
                 >
-                  <h3 className="text-lg font-semibold mb-2 text-white">{outcome.title}</h3>
+                  <h3 className="text-lg font-light mb-2 text-white">{outcome.title}</h3>
                   <p className="text-gray-300 text-sm">{outcome.description}</p>
                 </motion.div>
               ))}

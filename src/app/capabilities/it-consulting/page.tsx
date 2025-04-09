@@ -83,7 +83,7 @@ export default function ITConsultingPage() {
             className="flex flex-col md:flex-row items-center gap-6"
           >
             <div className="md:w-1/2 space-y-4">
-              <h2 className="text-3xl md:text-4xl font-bold text-[#6442FA]">
+              <h2 className="text-3xl md:text-4xl font-light text-[#6442FA]">
                 Elevate Your Business with Expert IT Consulting
               </h2>
               <div className="space-y-3">
@@ -127,7 +127,7 @@ export default function ITConsultingPage() {
               className="text-center p-4 bg-gray-900/50 rounded-lg border border-gray-800 shadow-md"
             >
               <stat.icon className="h-8 w-8 mx-auto mb-3 text-indigo-500" />
-              <h3 className="text-xl font-bold mb-1">{stat.value}</h3>
+              <h3 className="text-xl font-light mb-1">{stat.value}</h3>
               <p className="text-gray-300 text-xs">{stat.label}</p>
             </motion.div>
           ))}
@@ -176,13 +176,13 @@ export default function ITConsultingPage() {
           viewport={{ once: true }}
           className="mb-16"
         >
-          <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-bold mb-6 text-[#6442FA]">
+          <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-light mb-6 text-[#6442FA]">
             Our IT Consultation Capabilities
           </motion.h2>
           <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-4 text-[#6442FA]">
             {capabilities.map((capability) => (
               <div key={capability.title} className="p-5 bg-gray-900/50 rounded-lg border border-gray-800 shadow-md">
-                <h3 className="text-lg font-semibold mb-2">{capability.title}</h3>
+                <h3 className="text-lg font-light mb-2">{capability.title}</h3>
                 <p className="text-gray-300 text-sm">{capability.description}</p>
               </div>
             ))}
@@ -196,7 +196,7 @@ export default function ITConsultingPage() {
           viewport={{ once: true }}
           className="mb-16"
         >
-          <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-bold mb-6 text-[#6442FA]">
+          <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-light mb-6 text-[#6442FA]">
             Empower Your Business With Technology
           </motion.h2>
           <motion.div variants={itemVariants} className="space-y-3">

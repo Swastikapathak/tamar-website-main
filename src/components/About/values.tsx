@@ -10,7 +10,7 @@ export default function Value() {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-gray-800/30 p-8 rounded-xl backdrop-blur-sm">
-              <h2 className="text-3xl font-bold mb-6 flex items-center">
+              <h2 className="text-3xl font-light mb-6 flex items-center">
                 <Target className="w-8 h-8 text-[#6442FA] mr-3" />
                 Our Mission
               </h2>
@@ -19,7 +19,7 @@ export default function Value() {
               </p>
             </div>
             <div className="bg-gray-800/30 p-8 rounded-xl backdrop-blur-sm">
-              <h2 className="text-3xl font-bold mb-6 flex items-center">
+              <h2 className="text-3xl font-light mb-6 flex items-center">
                 <Building2 className="w-8 h-8 text-[#6442FA] mr-3" />
                 Our Vision
               </h2>

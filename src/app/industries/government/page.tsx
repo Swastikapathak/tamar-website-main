@@ -23,7 +23,7 @@ export default function Home() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="lg:w-1/2"
           >
-            <h1 className="text-2xl md:text-3xl font-extrabold text-[#6442FA] mb-6">
+            <h1 className="text-2xl md:text-3xl font-light text-[#6442FA] mb-6">
               Government Software Development
             </h1>
             <p className="text-lg text-gray-300 mb-6">
@@ -75,7 +75,7 @@ export default function Home() {
                 -translate-x-12 -translate-y-12 opacity-0 group-hover:opacity-100 
                 transition-all duration-300" />
               <div className="relative z-10 text-center">
-                <h3 className="text-3xl font-bold text-[#6442FA] mb-2">{stat.value}</h3>
+                <h3 className="text-3xl font-light text-[#6442FA] mb-2">{stat.value}</h3>
                 <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
                   {stat.label}
                 </p>
@@ -94,7 +94,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={caseStudiesInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, ease: "easeOut" }}
-            className="text-2xl md:text-3xl font-bold text-[#6442FA] mb-10 text-center"
+            className="text-2xl md:text-3xl font-light text-[#6442FA] mb-10 text-center"
           >
             Government Software Solutions for a Better Future
           </motion.h2>
@@ -136,7 +136,7 @@ export default function Home() {
                   -translate-x-12 -translate-y-12 opacity-0 group-hover:opacity-100 
                   transition-all duration-300" />
                 <div className="relative z-10">
-                  <h3 className="text-xl font-bold text-white mb-4 group-hover:text-[#6442FA] transition-colors duration-300">
+                  <h3 className="text-xl font-light text-white mb-4 group-hover:text-[#6442FA] transition-colors duration-300">
                     {caseStudy.title}
                   </h3>
                   <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -175,7 +175,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="lg:w-1/2 mt-10 lg:mt-0"
           >
-            <h2 className="text-2xl md:text-3xl font-bold text-[#6442FA] mb-6">
+            <h2 className="text-2xl md:text-3xl font-light text-[#6442FA] mb-6">
               World-class Government Software Solutions
             </h2>
             <p className="text-lg text-gray-300 mb-6">
