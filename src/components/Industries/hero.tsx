@@ -86,7 +86,7 @@ export default function IndustriesPage() {
             transition={{ duration: 0.5 }}
             className="text-center mb-12"
           >
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 text-[#6442FA]">
+            <h1 className="text-4xl md:text-5xl font-light mb-4 text-[#6442FA]">
               Industries
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
@@ -119,7 +119,7 @@ export default function IndustriesPage() {
                     transition-all duration-300 transform group-hover:scale-110">
                     <industry.icon className="w-8 h-8 text-[#6442FA] transition-colors duration-300" />
                   </div>
-                  <h2 className="text-2xl font-semibold mb-2 text-white group-hover:text-[#6442FA] transition-colors duration-300">
+                  <h2 className="text-2xl font-light mb-2 text-white group-hover:text-[#6442FA] transition-colors duration-300">
                     {industry.name}
                   </h2>
                   <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -187,7 +187,7 @@ export default function IndustriesPage() {
                         src="https://tailwindui.com/plus-assets/img/logos/workcation-logo-white.svg"
                         className="h-8 w-auto"
                       />
-                      <blockquote className="mt-6 text-xl/8 font-semibold text-white">
+                      <blockquote className="mt-6 text-xl/8 font-light text-white">
                         <p>
                           “Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare
                           arcu gravida natoque erat et cursus tortor.”
@@ -202,7 +202,7 @@ export default function IndustriesPage() {
                 <div>
                   <div className="text-base/7 text-white lg:max-w-lg">
                     <p className="text-base/7 font-semibold text-[#6442FA]">Company Values</p>
-                    <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-white sm:text-3xl">
+                    <h1 className="mt-2 text-4xl font-light tracking-tight text-pretty text-white sm:text-3xl">
                       Best Software & AI Development Company in North India
                     </h1>
                     <div className="max-w-xl">

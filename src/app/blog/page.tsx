@@ -61,7 +61,7 @@ export default function Blog() {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h1 className="text-4xl md:text-5xl font-bold text-[#4F45E4]">
+          <h1 className="text-4xl md:text-5xl font-light text-[#4F45E4]">
             Our Blog
           </h1>
           <p className="text-gray-400 mt-4 text-lg">
@@ -116,7 +116,7 @@ export default function Blog() {
 
                 {/* Content */}
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-white mb-2 line-clamp-2">
+                  <h3 className="text-xl font-light text-white mb-2 line-clamp-2">
                     {post.title}
                   </h3>
                   <p className="text-gray-400 text-sm mb-4">

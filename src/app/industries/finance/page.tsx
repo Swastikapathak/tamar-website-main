@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -7,25 +6,24 @@ import { ArrowRight } from "lucide-react";
 
 
 export default function Home() {
-  // Use useInView to trigger animations when sections come into view
+  //Use useInView to trigger animations when sections come into view
   const [heroRef, heroInView] = useInView({ triggerOnce: true, threshold: 0.2 });
   const [statsRef, statsInView] = useInView({ triggerOnce: true, threshold: 0.2 });
-  const [caseStudiesRef, caseStudiesInView] = useInView({ triggerOnce: true, threshold: 0.2 });
+  const [caseStudiesRef, caseStudiesInView] = useInView({ triggerOnce: true, threshold: 0.2});
   const [optimizeRef, optimizeInView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
   return (
     <div className="min-h-screen bg-black text-white mt-12">
     <section ref={heroRef} className="py-16 bg-black relative overflow-hidden">
-  <div className="absolute inset-0" />
+  <div className="absolute inset-0"/>
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center">
     
     <motion.div
       initial={{ opacity: 0, x: -50 }}
       animate={heroInView ? { opacity: 1, x: 0 } : {}}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="lg:w-1/2"
-    >
-      <h1 className="text-2xl md:text-3xl font-extrabold text-[#6442FA] mb-6">
+      className="lg:w-1/2">
+      <h1 className="text-2xl md:text-3xl font-light text-[#6442FA] mb-6">
         Power Your Finance with Technology
       </h1>
       <p className="text-lg text-gray-300 mb-6">
@@ -83,7 +81,7 @@ export default function Home() {
                   transition-all duration-300" />
 
                 <div className="relative z-10 text-center">
-                  <h3 className="text-3xl font-bold text-[#6442FA] mb-2">{stat.value}</h3>
+                  <h3 className="text-3xl font-light text-[#6442FA] mb-2">{stat.value}</h3>
                   <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
                     {stat.label}
                   </p>
@@ -104,7 +102,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={caseStudiesInView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, ease: "easeOut" }}
-              className="text-2xl md:text-3xl font-bold text-[#6442FA] mb-10 text-center"
+              className="text-2xl md:text-3xl font-light text-[#6442FA] mb-10 text-center"
             >
               Finance Case Studies: Innovative Software for Financial Success
             </motion.h2>
@@ -150,7 +148,7 @@ export default function Home() {
                     transition-all duration-300" />
 
                   <div className="relative z-10">
-                    <h3 className="text-xl font-bold text-white mb-4 group-hover:text-[#6442FA] transition-colors duration-300">
+                    <h3 className="text-xl font-light text-white mb-4 group-hover:text-[#6442FA] transition-colors duration-300">
                       {caseStudy.title}
                     </h3>
                     <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -191,7 +189,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
               className="lg:w-1/2 mt-10 lg:mt-0"
             >
-              <h2 className="text-3xl md:text-3xl font-bold text-[#6442FA] mb-6">
+              <h2 className="text-3xl md:text-3xl font-light text-[#6442FA] mb-6">
                 Optimize Your Financial Performance
               </h2>
               <p className="text-lg text-gray-300 mb-6">

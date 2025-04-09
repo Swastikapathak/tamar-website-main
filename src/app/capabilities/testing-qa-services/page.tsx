@@ -84,7 +84,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-[#6442FA]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               <div className="absolute top-0 right-0 w-24 h-24 bg-[#6442FA]/10 rounded-full -translate-x-12 -translate-y-12 opacity-0 group-hover:opacity-100 transition-all duration-300" />
               <div className="relative z-10 text-center">
-                <h3 className="text-3xl font-bold text-[#6442FA] mb-2">{stat.value}</h3>
+                <h3 className="text-3xl font-light text-[#6442FA] mb-2">{stat.value}</h3>
                 <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
                   {stat.label}
                 </p>
@@ -140,7 +140,7 @@ export default function Home() {
                 <div className="absolute top-0 right-0 w-24 h-24 bg-[#6442FA]/10 rounded-full -translate-x-12 -translate-y-12 opacity-0 group-hover:opacity-100 transition-all duration-300" />
                 <div className="relative z-10 text-justify">
                   <reason.icon className="w-8 h-8 text-[#6442FA] mb-4" />
-                  <h3 className="text-xl font-bold text-white mb-4 group-hover:text-[#6442FA] transition-colors duration-300">
+                  <h3 className="text-xl font-light text-white mb-4 group-hover:text-[#6442FA] transition-colors duration-300">
                     {reason.title}
                   </h3>
                   <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -219,7 +219,7 @@ export default function Home() {
                 <div className="absolute top-0 right-0 w-24 h-24 bg-[#6442FA]/10 rounded-full -translate-x-12 -translate-y-12 opacity-0 group-hover:opacity-100 transition-all duration-300" />
                 <div className="relative z-10 text-justify">
                   <solution.icon className="w-8 h-8 text-[#6442FA] mb-4" />
-                  <h3 className="text-xl font-bold text-white mb-4 group-hover:text-[#6442FA] transition-colors duration-300">
+                  <h3 className="text-xl font-light text-white mb-4 group-hover:text-[#6442FA] transition-colors duration-300">
                     {solution.title}
                   </h3>
                   <p className="text-gray-400 group-hover:text-gray-200 transition-colors duration-300">
@@ -259,6 +259,7 @@ export default function Home() {
               height={350}
               className="rounded-lg shadow-lg mr-4"
             />
+            D:\tamar\tamar-by-gautam\tamar-website-main
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 50 }}

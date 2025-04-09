@@ -52,7 +52,7 @@ export default function VenueBooking() {
             className="grid md:grid-cols-2 gap-6 mb-16"
           >
             <motion.div variants={itemVariants} className="space-y-4">
-              <h1 className="text-3xl md:text-4xl font-bold text-indigo-500">
+              <h1 className="text-3xl md:text-4xl font-light text-indigo-500">
                 Madnue - Facilitating Seamless Venue Booking
               </h1>
               <p className="text-gray-300">
@@ -79,7 +79,7 @@ export default function VenueBooking() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-[#6442FA]">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-[#6442FA]">
               Project in Figures
             </motion.h2>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -113,7 +113,7 @@ export default function VenueBooking() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-[#6442FA]">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-[#6442FA]">
               Problem Statement
             </motion.h2>
             <motion.p variants={itemVariants} className="text-gray-300">
@@ -136,7 +136,7 @@ export default function VenueBooking() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-[#6442FA]">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-[#6442FA]">
               Technical Details
             </motion.h2>
             <motion.div variants={itemVariants} className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -161,7 +161,7 @@ export default function VenueBooking() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-[#6442FA]">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-[#6442FA]">
               Solution - Seamless Venue Booking Platform
             </motion.h2>
             <motion.p variants={itemVariants} className="text-gray-300 mb-6">
@@ -199,7 +199,7 @@ export default function VenueBooking() {
                 variants={itemVariants}
                 className="p-5 bg-gray-900/50 rounded-lg border border-gray-800 shadow-md"
               >
-                <h3 className="text-lg font-semibold mb-2 text-[#6442FA]">{item.title}</h3>
+                <h3 className="text-lg font-light mb-2 text-[#6442FA]">{item.title}</h3>
                 <p className="text-gray-300">{item.value}</p>
               </motion.div>
             ))}
@@ -212,7 +212,7 @@ export default function VenueBooking() {
             viewport={{ once: true }}
             className="mb-16"
           >
-            <motion.h2 variants={itemVariants} className="text-3xl font-bold mb-6 text-[#6442FA]">
+            <motion.h2 variants={itemVariants} className="text-3xl font-light mb-6 text-[#6442FA]">
               Final Outcomes
             </motion.h2>
             <motion.p variants={itemVariants} className="text-gray-300 mb-6">
@@ -258,7 +258,7 @@ export default function VenueBooking() {
                   variants={itemVariants}
                   className="p-5 bg-gray-900/50 rounded-lg border border-gray-800 shadow-md"
                 >
-                  <h3 className="text-lg font-semibold mb-2 text-[#6442FA]">{outcome.title}</h3>
+                  <h3 className="text-lg font-light mb-2 text-[#6442FA]">{outcome.title}</h3>
                   <p className="text-gray-300 text-sm">{outcome.description}</p>
                 </motion.div>
               ))}
